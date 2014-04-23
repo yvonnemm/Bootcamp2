@@ -1,0 +1,101 @@
+body, div, h1, h2, h3, h4, p, ul, img, aside{
+	margin:30;
+	padding: 30;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: violet;
+}
+
+header{
+	background-color: #676666;
+	padding-left: 10px;
+	height 175px;
+
+}
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+nav{
+	font-style: bold;
+	font-size: 30pt;
+	
+}
+
+.menu {
+	list-style: none;
+	padding-top: 20px;
+	
+}
+
+.menu li {
+	float: left;
+	padding-left: 30px;
+	padding-right: 75px;
+
+	text-decoration: none;
+}
+.menu li a{
+	text-decoration: none;
+	
+}
+.content {
+	width: 510px;
+	float: left;
+}
+.content h2 {
+	color: red;
+	font-size:  36px;
+}
+
+.news {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.news h3 {
+	padding-bottom: 20px
+}
+
+aside {
+	float: left;
+	margin-left: 30px;
+	margin-top: 35px;
+	background: #d4d6d3;
+	border:1px solid;
+	padding: 15px;
+}
+
+aside ul {
+	list-style: none;
+}
+
+aside h3{
+	color: #044055;
+	font-weight: normal;
+}
+
+aside a{
+	font-size: 14px;
+	color: #393838;
+}
+
+footer {
+	float: left;
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding: 20px 10px;
+	margin-top: 30px;
+}
+button {
+	color: #393838;
+	margin: auto;
+	width: 100%;
+	padding: 10px 10px;
+	margin-top: 10px;
+}
+
