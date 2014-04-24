@@ -12,7 +12,7 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
+ol ul {
 	list-style:	none;
 }
 
@@ -25,9 +25,63 @@ html {
 
 }
 
+.main {
+	margin: 0 auto;
+	width: 880px;
+}
+
+.logo h1 a {
+	position: absolute;
+	font-size: 40px;
+	font-type: bold;
+	text-decoration: none;
+	color: gray;
+	text-shadow: 3px 3px 1px #a8a8a8;
+}
+
+.logo h2 a {
+	position: relative;
+	top: 40px;
+	font-size: 40px;
+	font-type: bold;
+	text-decoration: none;
+	color: gray;
+	text-shadow: 3px 3px 31px #a8a8a8;
+}
+
+.main-nav {
+	display: block;
+	float: left;
+	position: relative;
+	left: 440px;
+
+
+
+}
+.main-nav h1 {
+	display: none;
+}
+
+.nav-links {
+	float: left;
+	display: block;
+	padding-left: 10px;
+
+}
+.contact {
+	position: relative;
+	left: 550px;
+
+}
+
+.nav-links .ul {
+	list-style: none;
+}
+
 .main-wrapper {
-	border: 5 px sold #fff;
-	height: auto ;
+	position: relative;
+	top: 50px;
+	height: 450px;
 	margin: 40 px auto 0 auto;
 	text-align: center;
 	width: 880px;
@@ -49,6 +103,7 @@ html {
 	position: absolute;
 	-webkit-transition: all 300ms ease-out;
 	transition: all 300ms ease-out;
+	left:0;
 }	 
 
 .main-wrapper .box .caption {
